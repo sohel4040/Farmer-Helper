@@ -3,6 +3,7 @@ import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function Layout() {
+  // This is the entry point of an app.
   return (
     <Tabs screenOptions={{ headerShown: false }}>
       <Tabs.Screen
