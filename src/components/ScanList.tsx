@@ -1,13 +1,13 @@
-import React from 'react';
-import { FlatList } from 'react-native';
-import ScanItem from './ScanItem';
+import React from "react";
+import { FlatList } from "react-native";
+import ScanItem from "./ScanItem";
 
 type Scan = {
   id: string;
   name: string;
   location: string;
   date: string;
-  status: 'success' | 'error' | 'default';
+  status: "success" | "error" | "default";
 };
 
 type ScanListProps = {

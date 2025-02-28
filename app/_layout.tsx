@@ -1,32 +1,14 @@
-import React from 'react';
-import { Tabs } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
+import React from "react";
+import { Stack } from "expo-router";
 
 export default function Layout() {
-  // This is the entry point of an app.
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color, size }) => <Ionicons name="home-outline" size={size} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="stats"
-        options={{
-          title: 'Stats',
-          tabBarIcon: ({ color, size }) => <Ionicons name="bar-chart-outline" size={size} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="profile"
-        options={{
-          title: 'Profile',
-          tabBarIcon: ({ color, size }) => <Ionicons name="person-outline" size={size} color={color} />,
-        }}
-      />
-    </Tabs>
+    <Stack screenOptions={{ headerShown: false }}>
+      {/* Bottom Tab Navigator */}
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+
+      {/* Stack screens (They open on top of Bottom Navigation) */}
+      <Stack.Screen name="scan-details" options={{ presentation: "modal" }} />
+    </Stack>
   );
 }
