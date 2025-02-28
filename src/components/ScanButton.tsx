@@ -1,5 +1,5 @@
-import React from 'react';
-import { TouchableOpacity, Text, StyleSheet } from 'react-native';
+import React from "react";
+import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
 type ScanButtonProps = {
   title: string;
@@ -15,8 +15,14 @@ const ScanButton: React.FC<ScanButtonProps> = ({ title, onPress }) => {
 };
 
 const styles = StyleSheet.create({
-  button: { backgroundColor: '#007bff', padding: 12, borderRadius: 10, marginVertical: 5, alignItems: 'center' },
-  buttonText: { color: 'white', fontWeight: 'bold' },
+  button: {
+    backgroundColor: "#007bff",
+    padding: 12,
+    borderRadius: 10,
+    marginVertical: 5,
+    alignItems: "center",
+  },
+  buttonText: { color: "white", fontWeight: "bold" },
 });
 
 export default ScanButton;
