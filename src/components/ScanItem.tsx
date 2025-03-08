@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { MaterialIcons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 
 type ScanItemProps = {
@@ -19,20 +19,20 @@ const ScanItem: React.FC<ScanItemProps> = ({
   const router = useRouter();
 
   return (
-    <View style={styles.scanCard}>
-      <View>
+    <TouchableOpacity
+      style={styles.scanCard}
+      activeOpacity={0.7}
+      onPress={() => router.push("/scan-details")}
+    >
+      <View style={styles.textContainer}>
         <Text style={[styles.scanTitle, styles[status]]}>{name}</Text>
         <Text style={styles.scanLocation}>{location}</Text>
       </View>
-      <Text style={styles.scanDate}>{date}</Text>
-      <TouchableOpacity
-        style={styles.arrowButton}
-        onPress={() => router.push("/scan-details")} // ✅ Now works
-      >
-        {" "}
-        <Ionicons name="chevron-forward" size={20} color="black" />
-      </TouchableOpacity>
-    </View>
+      <View style={styles.rightSection}>
+        <Text style={styles.scanDate}>{date}</Text>
+        <MaterialIcons name="chevron-right" size={22} color="gray" />
+      </View>
+    </TouchableOpacity>
   );
 };
 
@@ -40,15 +40,39 @@ const styles = StyleSheet.create({
   scanCard: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#f5f5f5",
-    padding: 10,
+    backgroundColor: "#ffffff",
+    padding: 18,
     borderRadius: 10,
     marginVertical: 5,
+    borderWidth: 1,
+    borderColor: "#ddd",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 2,
   },
-  scanTitle: { fontSize: 16, fontWeight: "bold" },
-  scanLocation: { color: "gray" },
-  scanDate: { marginLeft: "auto", marginRight: 10 },
-  arrowButton: { backgroundColor: "lightgray", borderRadius: 20, padding: 5 },
+  textContainer: {
+    flex: 1,
+  },
+  scanTitle: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  scanLocation: {
+    color: "gray",
+    fontSize: 14,
+  },
+  rightSection: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  scanDate: {
+    fontSize: 14,
+    fontWeight: "bold",
+    color: "#000",
+    marginRight: 5,
+  },
   success: { color: "green" },
   error: { color: "red" },
   default: { color: "black" },

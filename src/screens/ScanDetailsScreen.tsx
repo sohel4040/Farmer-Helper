@@ -4,13 +4,13 @@ import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import ScanDetailsCard from "../components/ScanDetailsCard";
 import BarChartComponent from "../components/BarChartComponent";
+import ScanButton from "../components/ScanButton";
 
 const ScanDetailsScreen = () => {
   const router = useRouter();
 
   return (
     <View style={styles.container}>
-      {/* Header with Back Button */}
       <View style={styles.header}>
         <TouchableOpacity
           onPress={() => router.back()}
@@ -22,18 +22,10 @@ const ScanDetailsScreen = () => {
       </View>
 
       <ScanDetailsCard />
-      {/* Analysis Section */}
-      <Text style={styles.sectionTitle}>📊 Analysis</Text>
-
+      <Text style={styles.sectionTitle}>Analysis</Text>
       <BarChartComponent />
-
-      {/* Summary Section */}
-      <Text style={styles.sectionTitle}>📄 Summary</Text>
-      <Text style={styles.summaryText}>
-        This scan shows a significant increase in affected crops during peak
-        seasons. Immediate action is recommended to prevent further spread and
-        minimize yield loss.
-      </Text>
+      <Text style={styles.sectionTitle}>Summary</Text>
+      <ScanButton title="Explore Solutions" />
     </View>
   );
 };
