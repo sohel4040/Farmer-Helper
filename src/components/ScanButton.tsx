@@ -16,7 +16,7 @@ const ScanButton: React.FC<ScanButtonProps> = ({ title, onPress }) => {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: "#007bff",
+    backgroundColor: "#101826",
     padding: 12,
     borderRadius: 10,
     marginVertical: 5,

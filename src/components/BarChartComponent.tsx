@@ -52,7 +52,7 @@ const BarChartComponent = () => {
           <BarChart
             style={styles.chart}
             data={values}
-            svg={{ fill: "#4A90E2" }}
+            svg={{ fill: "#101826" }}
             contentInset={{ top: 20, bottom: 20 }}
             spacingInner={0.3}
             spacingOuter={0.2}
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderRadius: 10,
     elevation: 4,
-    margin: 10,
+    marginBottom: 10,
   },
   chart: {
     flex: 1,
