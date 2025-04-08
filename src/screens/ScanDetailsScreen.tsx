@@ -24,8 +24,10 @@ const ScanDetailsScreen = () => {
       <ScanDetailsCard />
       <Text style={styles.sectionTitle}>Analysis</Text>
       <BarChartComponent />
-      <Text style={styles.sectionTitle}>Summary</Text>
-      <ScanButton title="Explore Solutions" />
+
+      <ScanButton title="Explore Solutions" onPress={() => router.push("/solution")}/>
+      <ScanButton title="View Updates" onPress={() => router.push("/news")} />
+
     </View>
   );
 };

@@ -14,13 +14,11 @@ const sampleData = [
 ];
 
 // Bar Labels Component
-const BarLabels = ({ x, y, bandwidth, data }: any) => (
+const BarLabels = ({ data }: any) => (
   <G>
     {data.map((item: any, index: number) => (
       <Text
         key={index}
-        x={x(index) + bandwidth / 2}
-        y={y(item.value) - 10}
         fontSize={14}
         fill="black"
         fontWeight="bold"
