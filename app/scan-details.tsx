@@ -1,3 +1,3 @@
-import StatsScreen from "../src/screens/ScanDetailsScreen";
+import ScanDetailsScreen from "../src/screens/ScanDetailsScreen";
 
-export default StatsScreen;
+export default ScanDetailsScreen;

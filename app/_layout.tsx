@@ -9,6 +9,9 @@ export default function Layout() {
 
       {/* Stack screens (They open on top of Bottom Navigation) */}
       <Stack.Screen name="scan-details" options={{ presentation: "modal" }} />
+      <Stack.Screen name="solution" options={{ presentation: "modal" }} />
+      <Stack.Screen name="news" options={{ presentation: "modal" }} />
+
     </Stack>
   );
 }
