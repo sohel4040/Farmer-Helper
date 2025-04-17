@@ -1,6 +1,7 @@
 import React from "react";
 import { Tabs } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
+import { StatusBar } from "react-native";
 
 export default function Layout() {
   // This is the entry point of an app.
@@ -16,9 +17,9 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="stats"
+        name="solution"
         options={{
-          title: "Stats",
+          title: "Solutions",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="bar-chart-outline" size={size} color={color} />
           ),

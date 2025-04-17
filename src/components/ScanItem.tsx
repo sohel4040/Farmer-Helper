@@ -8,6 +8,7 @@ type ScanItemProps = {
   location: string;
   date: string;
   status: "success" | "error" | "default";
+  scan_id: string;
 };
 
 const ScanItem: React.FC<ScanItemProps> = ({
@@ -15,6 +16,7 @@ const ScanItem: React.FC<ScanItemProps> = ({
   location,
   date,
   status,
+  scan_id,
 }) => {
   const router = useRouter();
 
@@ -22,7 +24,18 @@ const ScanItem: React.FC<ScanItemProps> = ({
     <TouchableOpacity
       style={styles.scanCard}
       activeOpacity={0.7}
-      onPress={() => router.push("/scan-details")}
+      onPress={() =>
+        router.push({
+          pathname: "/scan-details",
+          params: {
+            scan_id,
+            name,
+            location,
+            date,
+            status,
+          },
+        })
+      }
     >
       <View style={styles.textContainer}>
         <Text style={[styles.scanTitle, styles[status]]}>{name}</Text>
@@ -41,9 +54,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: "#ffffff",
-    padding: 18,
+    padding: 20,
     borderRadius: 10,
-    marginVertical: 5,
+    marginVertical: 7,
     borderWidth: 1,
     borderColor: "#ddd",
     shadowColor: "#000",

@@ -2,16 +2,36 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
-const ScanDetailsCard = () => {
+type ScanDetailsCardProps = {
+  name: string;
+  location: string;
+  date: string;
+  status: "success" | "error" | "default";
+  nonHealthyCount: number;
+  healthyCount: number;
+  percentageLeavesAffected: number;
+};
+
+const ScanDetailsCard: React.FC<ScanDetailsCardProps> = ({
+  name,
+  location,
+  date,
+  status,
+  nonHealthyCount,
+  healthyCount,
+  percentageLeavesAffected,
+}) => {
   return (
     <View style={styles.card}>
       {/* Header */}
-      <Text style={styles.header}>Scan #1</Text>
-      <Text style={styles.subHeader}>Mumbai, Maharashtra</Text>
+      <Text style={styles.header}>{name}</Text>
+      <Text style={styles.subHeader}>{location}</Text>
 
       {/* Main Value Section */}
       <View style={styles.mainSection}>
-        <Text style={styles.mainValue}>90%</Text>
+        <Text style={styles.mainValue}>
+          {percentageLeavesAffected?.toFixed(2)}%
+        </Text>
         <View style={styles.trendContainer}>
           <Text style={styles.trendValue}>38.00%</Text>
           <Ionicons name="arrow-down-outline" size={18} color="#D32F2F" />
@@ -24,32 +44,31 @@ const ScanDetailsCard = () => {
       {/* Lower Metrics Section */}
       <View style={styles.metricsContainer}>
         <View style={styles.metricBox}>
-          <Text style={styles.metricTitle}>Crops Affected</Text>
-          <Text style={styles.metricValue}>7878</Text>
+          <Text style={styles.metricTitle}>Leaves Affected</Text>
+          <Text style={styles.metricValue}>{nonHealthyCount}</Text>
         </View>
         <View style={styles.metricBox}>
-          <Text style={styles.metricTitle}>Healthy Crops</Text>
-          <Text style={styles.metricValue}>690</Text>
+          <Text style={styles.metricTitle}>Healthy Leaves</Text>
+          <Text style={styles.metricValue}>{healthyCount}</Text>
         </View>
       </View>
 
       {/* Bottom Section */}
       <View style={styles.bottomContainer}>
         <Ionicons name="calendar-outline" size={16} color="#6C757D" />
-        <Text style={styles.bottomTitle}>02 Feb 2025</Text>
+        <Text style={styles.bottomTitle}>{date}</Text>
       </View>
     </View>
   );
 };
 
-// ✅ Styles
 const styles = StyleSheet.create({
   card: {
     backgroundColor: "#FFF",
     padding: 20,
     borderRadius: 14,
-    elevation: 5, // Android shadow
-    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", // Example shadow
+    elevation: 5, 
+    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", 
     marginVertical: 12,
     borderWidth: 1,
     borderColor: "#E0E0E0",
