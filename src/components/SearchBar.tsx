@@ -1,5 +1,5 @@
 import React from "react";
-import { View, TextInput, StyleSheet } from "react-native";
+import { View, TextInput, StyleSheet, TouchableOpacity } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 type SearchBarProps = {
@@ -13,15 +13,17 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchText, onChangeText }) => {
       <TextInput
         style={styles.searchInput}
         placeholder="Search scans"
+        placeholderTextColor="#6C757D"
         value={searchText}
         onChangeText={onChangeText}
       />
-      <Ionicons
-        name="search"
-        size={20}
-        color="gray"
-        style={styles.searchIcon}
-      />
+      {searchText.length === 0 ? (
+        <Ionicons name="search" size={20} color="gray" style={styles.icon} />
+      ) : (
+        <TouchableOpacity onPress={() => onChangeText("")}>
+          <Ionicons name="close" size={20} color="gray" style={styles.icon} />
+        </TouchableOpacity>
+      )}
     </View>
   );
 };
@@ -37,7 +39,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   searchInput: { flex: 1, padding: 8 },
-  searchIcon: { marginRight: 10 },
+  icon: { marginRight: 10 },
 });
 
 export default SearchBar;

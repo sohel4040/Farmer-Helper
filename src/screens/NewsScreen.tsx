@@ -11,9 +11,10 @@ export default function NewsScreen() {
 
   const fetchNews = async () => {
     try {
-      const response = await fetch(
-        'https://newsapi.org/v2/everything?q=mango%20AND%20India&from=2025-03-07&sortBy=publishedAt&apiKey=1c3ee84842ff472396fb97df34bb0431'
-      );
+      // 'https://newsapi.org/v2/everything?q=mango%20AND%20India&from=2025-03-07&sortBy=publishedAt&apiKey=1c3ee84842ff472396fb97df34bb0431'
+      // AIzaSyCix8obuloxQipWpIiCWl-r8-yUj8KiHpE
+      const url = "https://gnews.io/api/v4/search?q=mango&token=4972be0da9b846926c23177525db0189"
+      const response = await fetch(url);
       const data = await response.json();
       setArticles(data.articles);
     } catch (error) {

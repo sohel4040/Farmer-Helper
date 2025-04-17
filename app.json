@@ -9,13 +9,31 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to tag scans with city information.",
+        "NSCameraUsageDescription": "This app uses the camera to capture images for analysis."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCix8obuloxQipWpIiCWl-r8-yUj8KiHpE"
+      },
+      "bundleIdentifier": "com.anonymous.farmerHelper"
     },
     "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCix8obuloxQipWpIiCWl-r8-yUj8KiHpE"
+        }
+      },
+      "package": "com.anonymous.farmerHelper"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +54,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "caf2324a-7f2a-4aaf-bfbc-943d02eb5251"
+      }
     }
   }
 }

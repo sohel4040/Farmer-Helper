@@ -1,0 +1,497 @@
+[
+    {
+        "disease": "Bacterial Canker",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Use insecticides and maintain orchard hygiene",
+            "Ensure proper pruning and spacing",
+            "Apply sulfur-based fungicides"
+        ],
+        "recommended_products": [
+            "Imidacloprid Insecticide",
+            "Neem Oil"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Powdery Mildew",
+        "symptoms": "Orange-red pustules on leaves",
+        "causes": "Caused by soil-borne pathogens",
+        "solutions": [
+            "Remove and destroy infected plant material",
+            "Ensure proper pruning and spacing",
+            "Use neem oil or potassium bicarbonate sprays"
+        ],
+        "recommended_products": [
+            "Azoxystrobin + Difenoconazole Fungicide",
+            "Potassium Bicarbonate Spray"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Bacterial Canker",
+        "symptoms": "Dark, sunken lesions on fruits",
+        "causes": "Caused by fungal infection",
+        "solutions": [
+            "Apply copper-based fungicides",
+            "Use insecticides and maintain orchard hygiene",
+            "Use neem oil or potassium bicarbonate sprays"
+        ],
+        "recommended_products": [
+            "Bordeaux Mixture",
+            "Neem Oil"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Dieback",
+        "symptoms": "Circular greenish-gray spots on leaves",
+        "causes": "Caused by soil-borne pathogens",
+        "solutions": [
+            "Apply Bordeaux mixture as a preventive measure",
+            "Apply copper-based fungicides",
+            "Avoid overhead watering"
+        ],
+        "recommended_products": [
+            "Azoxystrobin + Difenoconazole Fungicide",
+            "Sulfur Fungicide"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Black Tip",
+        "symptoms": "Wilting and drying of twigs",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Apply sulfur-based fungicides",
+            "Use neem oil or potassium bicarbonate sprays",
+            "Ensure proper pruning and spacing"
+        ],
+        "recommended_products": [
+            "Azoxystrobin + Difenoconazole Fungicide",
+            "Neem Oil"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Mango Scab",
+        "symptoms": "Browning and desiccation of leaves",
+        "causes": "Spread through rain splash and wind",
+        "solutions": [
+            "Apply sulfur-based fungicides",
+            "Apply Bordeaux mixture as a preventive measure",
+            "Use insecticides and maintain orchard hygiene"
+        ],
+        "recommended_products": [
+            "Copper Fungicide",
+            "Sulfur Fungicide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Verticillium Wilt",
+        "symptoms": "Wilting and drying of twigs",
+        "causes": "Caused by fungal infection",
+        "solutions": [
+            "Ensure proper pruning and spacing",
+            "Use neem oil or potassium bicarbonate sprays",
+            "Use insecticides and maintain orchard hygiene"
+        ],
+        "recommended_products": [
+            "Imidacloprid Insecticide",
+            "Potassium Bicarbonate Spray"
+        ],
+        "source": "https://krishisevakendra.in/blogs/news/management-of-mango-pests-and-diseases"
+    },
+    {
+        "disease": "Powdery Mildew",
+        "symptoms": "White powdery fungal growth on leaves",
+        "causes": "Spread through rain splash and wind",
+        "solutions": [
+            "Avoid overhead watering",
+            "Use neem oil or potassium bicarbonate sprays",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Imidacloprid Insecticide",
+            "Potassium Bicarbonate Spray"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Powdery Mildew",
+        "symptoms": "Orange-red pustules on leaves",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Apply sulfur-based fungicides",
+            "Ensure proper pruning and spacing",
+            "Remove and destroy infected plant material"
+        ],
+        "recommended_products": [
+            "Copper Fungicide",
+            "Potassium Bicarbonate Spray"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Black Tip",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Ensure proper pruning and spacing",
+            "Avoid overhead watering",
+            "Apply sulfur-based fungicides"
+        ],
+        "recommended_products": [
+            "Neem Oil",
+            "Bordeaux Mixture"
+        ],
+        "source": "https://krishisevakendra.in/blogs/news/management-of-mango-pests-and-diseases"
+    },
+    {
+        "disease": "Mango Hopper",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Apply sulfur-based fungicides",
+            "Avoid overhead watering",
+            "Use neem oil or potassium bicarbonate sprays"
+        ],
+        "recommended_products": [
+            "Copper Hydroxide Fungicide",
+            "Sulfur Fungicide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Mango Hopper",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Caused by soil-borne pathogens",
+        "solutions": [
+            "Apply sulfur-based fungicides",
+            "Use neem oil or potassium bicarbonate sprays",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Bordeaux Mixture",
+            "Sulfur Fungicide"
+        ],
+        "source": "https://krishisevakendra.in/blogs/news/management-of-mango-pests-and-diseases"
+    },
+    {
+        "disease": "Dieback",
+        "symptoms": "Blackening of the fruit tip",
+        "causes": "Spread through rain splash and wind",
+        "solutions": [
+            "Avoid overhead watering",
+            "Apply sulfur-based fungicides",
+            "Use insecticides and maintain orchard hygiene"
+        ],
+        "recommended_products": [
+            "Azoxystrobin + Difenoconazole Fungicide",
+            "Imidacloprid Insecticide"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Black Tip",
+        "symptoms": "Scabby, raised brown lesions on leaves",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Use neem oil or potassium bicarbonate sprays",
+            "Remove and destroy infected plant material",
+            "Apply sulfur-based fungicides"
+        ],
+        "recommended_products": [
+            "Copper Fungicide",
+            "Neem Oil"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Dieback",
+        "symptoms": "Orange-red pustules on leaves",
+        "causes": "Caused by fungal infection",
+        "solutions": [
+            "Use insecticides and maintain orchard hygiene",
+            "Apply copper-based fungicides",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Imidacloprid Insecticide",
+            "Neem Oil"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Bacterial Canker",
+        "symptoms": "Orange-red pustules on leaves",
+        "causes": "Spread through rain splash and wind",
+        "solutions": [
+            "Ensure proper pruning and spacing",
+            "Use insecticides and maintain orchard hygiene",
+            "Apply copper-based fungicides"
+        ],
+        "recommended_products": [
+            "Copper Fungicide",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Anthracnose",
+        "symptoms": "Dark, sunken lesions on fruits",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Remove and destroy infected plant material",
+            "Avoid overhead watering",
+            "Use neem oil or potassium bicarbonate sprays"
+        ],
+        "recommended_products": [
+            "Sulfur Fungicide",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://en.wikipedia.org/wiki/Mango_disease"
+    },
+    {
+        "disease": "Mango Scab",
+        "symptoms": "Wilting and drying of twigs",
+        "causes": "Spread through rain splash and wind",
+        "solutions": [
+            "Use insecticides and maintain orchard hygiene",
+            "Apply sulfur-based fungicides",
+            "Remove and destroy infected plant material"
+        ],
+        "recommended_products": [
+            "Sulfur Fungicide",
+            "Neem Oil"
+        ],
+        "source": "https://en.wikipedia.org/wiki/Mango_disease"
+    },
+    {
+        "disease": "Red Rust",
+        "symptoms": "Browning and desiccation of leaves",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Ensure proper pruning and spacing",
+            "Use neem oil or potassium bicarbonate sprays",
+            "Use insecticides and maintain orchard hygiene"
+        ],
+        "recommended_products": [
+            "Copper Fungicide",
+            "Imidacloprid Insecticide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Mango Hopper",
+        "symptoms": "Sticky honeydew on leaves",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Ensure proper pruning and spacing",
+            "Remove and destroy infected plant material",
+            "Apply copper-based fungicides"
+        ],
+        "recommended_products": [
+            "Sulfur Fungicide",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://en.wikipedia.org/wiki/Mango_disease"
+    },
+    {
+        "disease": "Red Rust",
+        "symptoms": "Browning and desiccation of leaves",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Use neem oil or potassium bicarbonate sprays",
+            "Avoid overhead watering",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Neem Oil",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://en.wikipedia.org/wiki/Mango_disease"
+    },
+    {
+        "disease": "Dieback",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Due to exposure to industrial pollutants",
+        "solutions": [
+            "Avoid overhead watering",
+            "Apply sulfur-based fungicides",
+            "Ensure proper pruning and spacing"
+        ],
+        "recommended_products": [
+            "Azoxystrobin + Difenoconazole Fungicide",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://www.gardeningknowhow.com/edible/fruits/mango/mango-tree-diseases.htm"
+    },
+    {
+        "disease": "Red Rust",
+        "symptoms": "Wilting and drying of twigs",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Apply copper-based fungicides",
+            "Avoid overhead watering",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Potassium Bicarbonate Spray",
+            "Azoxystrobin + Difenoconazole Fungicide"
+        ],
+        "source": "https://en.wikipedia.org/wiki/Mango_disease"
+    },
+    {
+        "disease": "Mango Hopper",
+        "symptoms": "White powdery fungal growth on leaves",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Avoid overhead watering",
+            "Remove and destroy infected plant material",
+            "Use insecticides and maintain orchard hygiene"
+        ],
+        "recommended_products": [
+            "Potassium Bicarbonate Spray",
+            "Imidacloprid Insecticide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Black Tip",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Use neem oil or potassium bicarbonate sprays",
+            "Avoid overhead watering",
+            "Apply copper-based fungicides"
+        ],
+        "recommended_products": [
+            "Neem Oil",
+            "Potassium Bicarbonate Spray"
+        ],
+        "source": "https://krishisevakendra.in/blogs/news/management-of-mango-pests-and-diseases"
+    },
+    {
+        "disease": "Dieback",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Spread through rain splash and wind",
+        "solutions": [
+            "Use neem oil or potassium bicarbonate sprays",
+            "Remove and destroy infected plant material",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Bordeaux Mixture",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://en.wikipedia.org/wiki/Mango_disease"
+    },
+    {
+        "disease": "Black Tip",
+        "symptoms": "Dark, sunken lesions on fruits",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Avoid overhead watering",
+            "Apply Bordeaux mixture as a preventive measure",
+            "Ensure proper pruning and spacing"
+        ],
+        "recommended_products": [
+            "Potassium Bicarbonate Spray",
+            "Neem Oil"
+        ],
+        "source": "https://krishisevakendra.in/blogs/news/management-of-mango-pests-and-diseases"
+    },
+    {
+        "disease": "Red Rust",
+        "symptoms": "Blackening of the fruit tip",
+        "causes": "Caused by bacterial infection",
+        "solutions": [
+            "Apply copper-based fungicides",
+            "Use neem oil or potassium bicarbonate sprays",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Azoxystrobin + Difenoconazole Fungicide",
+            "Bordeaux Mixture"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Powdery Mildew",
+        "symptoms": "Blackening of the fruit tip",
+        "causes": "Caused by fungal infection",
+        "solutions": [
+            "Apply Bordeaux mixture as a preventive measure",
+            "Ensure proper pruning and spacing",
+            "Remove and destroy infected plant material"
+        ],
+        "recommended_products": [
+            "Copper Fungicide",
+            "Bordeaux Mixture"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Bacterial Canker",
+        "symptoms": "Water-soaked lesions on stems",
+        "causes": "Caused by soil-borne pathogens",
+        "solutions": [
+            "Use insecticides and maintain orchard hygiene",
+            "Ensure proper pruning and spacing",
+            "Remove and destroy infected plant material"
+        ],
+        "recommended_products": [
+            "Potassium Bicarbonate Spray",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Mango Scab",
+        "symptoms": "Blackening of the fruit tip",
+        "causes": "Caused by insect infestations",
+        "solutions": [
+            "Remove and destroy infected plant material",
+            "Apply Bordeaux mixture as a preventive measure",
+            "Use insecticides and maintain orchard hygiene"
+        ],
+        "recommended_products": [
+            "Bordeaux Mixture",
+            "Copper Hydroxide Fungicide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    },
+    {
+        "disease": "Red Rust",
+        "symptoms": "Wilting and drying of twigs",
+        "causes": "Due to exposure to industrial pollutants",
+        "solutions": [
+            "Apply copper-based fungicides",
+            "Apply sulfur-based fungicides",
+            "Apply Bordeaux mixture as a preventive measure"
+        ],
+        "recommended_products": [
+            "Copper Hydroxide Fungicide",
+            "Azoxystrobin + Difenoconazole Fungicide"
+        ],
+        "source": "https://en.wikipedia.org/wiki/Mango_disease"
+    },
+    {
+        "disease": "Mango Hopper",
+        "symptoms": "Browning and desiccation of leaves",
+        "causes": "Spread through rain splash and wind",
+        "solutions": [
+            "Remove and destroy infected plant material",
+            "Avoid overhead watering",
+            "Apply sulfur-based fungicides"
+        ],
+        "recommended_products": [
+            "Neem Oil",
+            "Copper Fungicide"
+        ],
+        "source": "https://blogs.ifas.ufl.edu/stlucieco/2024/03/13/managing-anthracnose-and-powdery-mildew-on-mango-tree/"
+    }
+]
