@@ -14,17 +14,25 @@
 
 
 2. Open terminal and type following command
+   For linux:
+   
+   ```bash
+    HOST_IP=$(ip route get 1.1.1.1 | awk '{print $7; exit}')   docker-compose up --build
+   ```
+
+   For windows:
 
    ```bash
-    docker-compose up --build
+     for /f "tokens=14" %a in ('ipconfig ^| findstr "IPv4"') do set HOST_IP=%a docker-compose up --build
    ```
-3. Open another terminal, and type following once the 'Attaching to farmer-helper' message is displayed after executing first command
+   
+4. Open another terminal, and type following once the 'Attaching to farmer-helper' message is displayed after executing first command
 
    ```bash
     docker exec -it farmer-helper bash
    ```
    
-4. The bash for root user will be opened after running above command. Type following command in bash
+5. The bash for root user will be opened after running above command. Type following command in bash
 
    ```bash
     npx expo login
