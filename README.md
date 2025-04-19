@@ -8,6 +8,11 @@
    git clone ﻿https://github.com/sohel4040/Farmer-Helper.git 
    ```
 
+   ```bash
+   cd Farmer-Helper
+   ```
+
+
 2. Open terminal and type following command
 
    ```bash
@@ -20,8 +25,8 @@
    ```
    
 4. The bash for root user will be opened after running above command. Type following command in bash
-  
-  ```bash
+
+   ```bash
     npx expo login
    ```
 
