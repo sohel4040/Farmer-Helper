@@ -32,6 +32,11 @@
 
 Once you are logged in, You can test your application using expo go.
 
+You dont need to use docker compose build command to start your container. Just use following command
+   
+   ```bash
+    docker-compose up
+   ```
 
 NOTE : Your mobile and computer must be connected to the same WiFI or network
 
