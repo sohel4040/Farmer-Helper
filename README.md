@@ -33,5 +33,5 @@
 Once you are logged in, You can test your application using expo go.
 
 
-
+NOTE : Your mobile and computer must be connected to the same WiFI or network
 
