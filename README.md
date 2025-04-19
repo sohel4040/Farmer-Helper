@@ -32,8 +32,8 @@
 
 Once you are logged in, You can test your application using expo go.
 
-You dont need to use docker compose build command to start your container. Just use following command
-   
+You don’t need to rebuild every time—once the image is built, just start the container with:
+
    ```bash
     docker-compose up
    ```
