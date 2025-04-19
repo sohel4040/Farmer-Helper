@@ -14,6 +14,7 @@
 
 
 2. Open terminal and type following command
+
    For linux:
    
    ```bash
