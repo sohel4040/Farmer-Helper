@@ -5,7 +5,7 @@
 1. Clone the repository
 
    ```bash
-   git clone ﻿https://github.com/sohel4040/Farmer-Helper.git 
+   git clone https://github.com/sohel4040/Farmer-Helper.git 
    ```
 
    ```bash
@@ -22,6 +22,12 @@
    ```
 
    For windows:
+
+   ```bash
+     for /f "tokens=14" %a in ('ipconfig ^| findstr "IPv4"') do set HOST_IP=%a docker-compose up --build
+   ```
+
+   For Mac:
 
    ```bash
      for /f "tokens=14" %a in ('ipconfig ^| findstr "IPv4"') do set HOST_IP=%a docker-compose up --build
