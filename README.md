@@ -30,7 +30,7 @@
    For Mac:
 
    ```bash
-     for /f "tokens=14" %a in ('ipconfig ^| findstr "IPv4"') do set HOST_IP=%a docker-compose up --build
+     export HOST_IP=$(ipconfig getifaddr en0) docker-compose up --build
    ```
    
 4. Open another terminal, and type following once the 'Attaching to farmer-helper' message is displayed after executing first command
